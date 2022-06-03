@@ -532,7 +532,7 @@ CREATE TABLE `think_config`  (
   `value` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL COMMENT '配置值',
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `uk_name`(`name`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 136 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 133 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of think_config
@@ -660,7 +660,13 @@ INSERT INTO `think_config` VALUES (122, 'cdnpublic', '//cdn.staticfile.org/');
 INSERT INTO `think_config` VALUES (123, 'wx_jsapi', '0');
 INSERT INTO `think_config` VALUES (124, 'wx_h5', '0');
 INSERT INTO `think_config` VALUES (125, 'wx_appKey', '');
-INSERT INTO `think_config` VALUES (126, 'version', '8.0.1');
+INSERT INTO `think_config` VALUES (126, 'version', '8.0.2');
+INSERT INTO `think_config` VALUES (127, 'epay_url', '');
+INSERT INTO `think_config` VALUES (128, 'epay_pid', '');
+INSERT INTO `think_config` VALUES (129, 'epay_key', '');
+INSERT INTO `think_config` VALUES (130, 'blfk_pay_usdtpay', '');
+INSERT INTO `think_config` VALUES (131, 'usdt_apiurl', '');
+INSERT INTO `think_config` VALUES (132, 'usdt_apitoken', '');
 
 -- ----------------------------
 -- Table structure for think_fl
