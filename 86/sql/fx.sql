@@ -660,7 +660,7 @@ INSERT INTO `think_config` VALUES (122, 'cdnpublic', '//cdn.staticfile.org/');
 INSERT INTO `think_config` VALUES (123, 'wx_jsapi', '0');
 INSERT INTO `think_config` VALUES (124, 'wx_h5', '0');
 INSERT INTO `think_config` VALUES (125, 'wx_appKey', '');
-INSERT INTO `think_config` VALUES (126, 'version', '8.0.2');
+INSERT INTO `think_config` VALUES (126, 'version', '8.0.3');
 INSERT INTO `think_config` VALUES (127, 'epay_url', '');
 INSERT INTO `think_config` VALUES (128, 'epay_pid', '');
 INSERT INTO `think_config` VALUES (129, 'epay_key', '');
