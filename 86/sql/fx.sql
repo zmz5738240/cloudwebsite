@@ -92,7 +92,7 @@ CREATE TABLE `think_admin`  (
 -- ----------------------------
 -- Records of think_admin
 -- ----------------------------
-INSERT INTO `think_admin` VALUES (1, 'admin', '218dbb225911693af03a713581a7227f', '9e1c923e2da0ada45a6fb2a09c0b686e', '20161122\\admin.jpg', 882, '222.86.90.128', 1649418241, 'bolefaka', 1, 1, '050149f273e3ecd2fe6b146abe2c7c62');
+INSERT INTO `think_admin` VALUES (1, 'admin', '218dbb225911693af03a713581a7227f', '', '20161122\\admin.jpg', 882, '222.86.90.128', 1649418241, 'bolefaka', 1, 1, '050149f273e3ecd2fe6b146abe2c7c62');
 
 -- ----------------------------
 -- Table structure for think_amount_total_log
